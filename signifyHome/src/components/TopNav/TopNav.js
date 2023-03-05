@@ -9,10 +9,10 @@ function TopNav() {
   return (
     <Navbar className="top-nav" expand="lg">
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
+        <Nav className="ml-auto ">
         <div className="logo" style={{ marginRight: "auto" }}>
         <img src={profilePic} alt="Profile" style={{ width: "120px", height: "auto", marginRight: "1000px"}} />
-      </div>
+        </div>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

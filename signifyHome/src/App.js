@@ -6,6 +6,7 @@ import Recieved from "./components/Homepage/Recieved";
 import TopNav from "./components/TopNav/TopNav";
 import axios from 'axios';
 import './static/style.css'
+import LandingPage from "./components/LandingPage/LandingPage";
 function App() {
   const [status, setStatus] = useState(0)
   const [data, setData] = useState()
@@ -49,8 +50,8 @@ function App() {
     
       <TopNav />
       {status === 0 && <Homepage />}
-      {status === 1 && <Recieved html={html}/>}
-      {/* <Recieved html={html}/> */}
+      {status === 1 && <Recieved html={html}/>} 
+      {/* /* <Recieved html={html}/> */}
 
 
       <Footer />
