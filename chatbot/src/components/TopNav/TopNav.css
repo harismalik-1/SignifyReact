@@ -1,0 +1,26 @@
+.top-nav {
+    background-color: #F7F7F7;;
+    border-bottom: 1px solid #cccccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    
+  }
+  
+  .top-nav .navbar-brand {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .top-nav .nav-link {
+    color: black;
+    font-weight: bold;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  
