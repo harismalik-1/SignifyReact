@@ -20,6 +20,7 @@ function Homepage() {
     <div className="home-screen">
       <div className="camera-container">
         {/* Camera container comes here */}
+        <iframe className="vid" title={Math.random()} src="http://100.65.108.182:8000/video"></iframe>
       </div>
       <div className="side-container">
       <h1>Translation</h1>
