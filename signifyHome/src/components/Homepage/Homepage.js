@@ -3,7 +3,7 @@ import axios from 'axios';
 import './Homepage.css';
 
 function Homepage() {
-  const [sentence, setSentence] = useState("")
+  const [sentence, setSentence] = useState("Hello")
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -24,10 +24,13 @@ function Homepage() {
       <div className="side-container">
       <h1>Translation</h1>
         <div>
-        <p>Sentence 1</p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+          <p>{sentence}</p>
         </div>
-        <button>Retry</button><br />
-        <button>Send</button>
+        <div className='buttons'>
+          <button className='buttonelement1'>Retry</button>
+          <button className='buttonelement2'>Send</button>
+        </div>
+
       </div>
     </div>
   );
